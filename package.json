@@ -1,23 +1,21 @@
 {
-  "name": "electron-quick-start",
+  "name": "electron-cloud",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "An electron-based, cross-platform app for using Apple's iCloud",
   "main": "main.js",
   "scripts": {
     "start": "electron main.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/electron/electron-quick-start.git"
+    "url": "git+https://github.com/nikharris0/electron-cloud"
   },
   "keywords": [
     "Electron",
-    "quick",
-    "start",
-    "tutorial"
+    "iCloud"
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "author": "Nik Harris",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/electron/electron-quick-start/issues"
   },
