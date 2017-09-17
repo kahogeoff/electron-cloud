@@ -1,6 +1,6 @@
 {
   "name": "electron-cloud",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An electron-based, cross-platform app for using Apple's iCloud",
   "main": "main.js",
   "scripts": {
@@ -8,19 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nikharris0/electron-cloud"
+    "url": "git+https://github.com/kahogeoff/electron-cloud"
   },
   "keywords": [
     "Electron",
     "iCloud"
   ],
-  "author": "Nik Harris",
+  "author": "Geoffrey Chueng",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/electron/electron-quick-start/issues"
   },
   "homepage": "https://github.com/electron/electron-quick-start#readme",
   "devDependencies": {
-    "electron-prebuilt": "^1.0.1"
+    "electron": "^1.0.1"
   }
 }
