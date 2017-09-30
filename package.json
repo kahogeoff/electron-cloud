@@ -3,8 +3,14 @@
   "version": "1.0.1",
   "description": "An electron-based, cross-platform app for using Apple's iCloud",
   "main": "main.js",
+  "build": {
+    "appId": "com.geoffrey.electroncloud",
+    "extraFiles": "icon/*"
+  },
   "scripts": {
-    "start": "electron main.js"
+    "start": "electron main.js",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
   "repository": {
     "type": "git",
@@ -21,6 +27,7 @@
   },
   "homepage": "https://github.com/electron/electron-quick-start#readme",
   "devDependencies": {
-    "electron": "^1.0.1"
+    "electron": "^1.0.1",
+    "electron-builder": "^19.27.7"
   }
 }
